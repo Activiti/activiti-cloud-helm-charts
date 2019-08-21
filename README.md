@@ -1,4 +1,4 @@
-# activiti-cloud-helm-charts Main community helm chart storage
+# Main community helm chart storage
 
 * helm create mychart
 * helm package mychart
