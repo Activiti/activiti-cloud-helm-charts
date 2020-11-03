@@ -5763,6 +5763,15 @@ entries:
     - activiti-cloud-query-0.0.1-3290.tgz
     version: 0.0.1-3290
   - apiVersion: v1
+    created: 2020-11-03T15:16:33.712045+01:00
+    description: A Helm chart for Kubernetes
+    digest: 97b8df1cbcc551103c36dc77c514fc6a12361927c486b4483de706d8053be884
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-0.0.1-2876.tgz
+    version: 0.0.1-2876
+  - apiVersion: v1
     created: 2020-11-03T14:48:58.882161+01:00
     description: A Helm chart for Kubernetes
     digest: d66a07d51b5b85395946acfc3617359c4e5a8d1c7297d8d658d8c8c30a638e29
@@ -8098,4 +8107,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0233.tgz
     version: 0.0.1-0233
-generated: 2020-11-03T14:48:58.878561+01:00
+generated: 2020-11-03T15:16:33.711377+01:00
