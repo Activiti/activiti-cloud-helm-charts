@@ -507,6 +507,18 @@ entries:
     version: 0.0.1-0233
   activiti-cloud-full-example:
   - apiVersion: v1
+    appVersion: 7.1.700
+    created: 2020-11-12T17:46:56.036692415Z
+    description: A Helm chart for Activiti Cloud Full Example
+    digest: 86cdfe14c19b47899e43bf2657c5b19ec96a8aebe57f9e06de1e8df70fa90e02
+    icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
+    name: activiti-cloud-full-example
+    sources:
+    - https://github.com/Activiti/activiti-cloud-full-chart
+    urls:
+    - activiti-cloud-full-example-7.1.700.tgz
+    version: 7.1.700
+  - apiVersion: v1
     appVersion: 7.1.699
     created: 2020-11-12T17:34:49.161159685Z
     description: A Helm chart for Activiti Cloud Full Example
@@ -741,14 +753,6 @@ entries:
     urls:
     - activiti-cloud-identity-9808.0.1.tgz
     version: 9808.0.1
-  - apiVersion: v1
-    appVersion: 0.0.1
-    created: 2020-11-12T17:34:49.203548811Z
-    digest: 852f0d86a3a2cc774d1f9282d57b5b992b707415d182f6c0d28025216e649795
-    name: activiti-cloud-identity
-    urls:
-    - activiti-cloud-identity-9808.tgz
-    version: "9808"
   - apiVersion: v1
     appVersion: 0.0.1
     created: 2020-11-12T17:34:49.194237581Z
@@ -2755,4 +2759,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0233.tgz
     version: 0.0.1-0233
-generated: 2020-11-12T17:34:48.945260013Z
+generated: 2020-11-12T17:46:56.026681308Z
