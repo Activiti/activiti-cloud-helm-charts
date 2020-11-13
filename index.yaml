@@ -828,6 +828,15 @@ entries:
     version: 0.0.15
   activiti-cloud-modeling:
   - apiVersion: v1
+    created: 2020-11-13T10:31:19.364254978Z
+    description: A Helm chart for Activiti Cloud Modeler
+    digest: eaffe3f81bcd1e26894b04cc1490a664e86526150dee61e8ce5e37e0beb1cbb7
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    name: activiti-cloud-modeling
+    urls:
+    - activiti-cloud-modeling-7.1.979.tgz
+    version: 7.1.979
+  - apiVersion: v1
     created: 2020-11-12T17:34:49.245408191Z
     description: A Helm chart for Activiti Cloud Modeler
     digest: 8bda2947fa53e03415ae7a9dfbe5026c5b91443bcaa6c3cdd674c3db5ea7be2d
@@ -2786,4 +2795,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0233.tgz
     version: 0.0.1-0233
-generated: 2020-11-13T10:31:09.518484473Z
+generated: 2020-11-13T10:31:19.36344464Z
