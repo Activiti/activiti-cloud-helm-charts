@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   activiti-cloud-connector:
   - apiVersion: v1
+    created: 2020-11-13T18:15:42.39151275Z
+    description: A Helm chart for Kubernetes
+    digest: 2dd64ef0bd1f58965e161ebdd0a4499cb61b8394ffd557d8cf1c2253cefad70b
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-connector
+    urls:
+    - activiti-cloud-connector-7.1.981.tgz
+    version: 7.1.981
+  - apiVersion: v1
     created: 2020-11-13T15:02:05.644006465Z
     description: A Helm chart for Kubernetes
     digest: 2e0228c3222a141337e13d79c3937a190f10e6f25ae4a9434d55b8b7a49c4fcb
@@ -2873,4 +2882,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0233.tgz
     version: 0.0.1-0233
-generated: 2020-11-13T18:15:32.667178883Z
+generated: 2020-11-13T18:15:42.39013822Z
