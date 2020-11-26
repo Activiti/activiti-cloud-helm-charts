@@ -2086,15 +2086,6 @@ entries:
     - activiti-cloud-query-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.246576635Z"
-    description: A Helm chart for Kubernetes
-    digest: 475e0877221601b3f5b0e1e0d7c0ea6db4c83040e142d23b8ed4e0249bc02f2e
-    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
-    name: activiti-cloud-query
-    urls:
-    - activiti-cloud-query-0.0.1-0533.tgz
-    version: 0.0.1-0533
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.245953568Z"
     description: A Helm chart for Kubernetes
     digest: 17629848b31f8b9691974db5bcdbeeab6e09a009c23def21b2815aaffd7fdc4f
@@ -2112,6 +2103,15 @@ entries:
     urls:
     - activiti-cloud-query-0.0.1-0778.tgz
     version: 0.0.1-0778
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.246576635Z"
+    description: A Helm chart for Kubernetes
+    digest: 475e0877221601b3f5b0e1e0d7c0ea6db4c83040e142d23b8ed4e0249bc02f2e
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-0.0.1-0533.tgz
+    version: 0.0.1-0533
   alfresco-deployment-service:
   - apiVersion: v1
     appVersion: develop
@@ -2125,6 +2125,15 @@ entries:
     - alfresco-deployment-service-0.1.0.tgz
     version: 0.1.0
   common:
+  - apiVersion: v1
+    created: "2020-11-26T10:34:06.916574321Z"
+    description: A Helm chart for Activiti Cloud Common Templates
+    digest: f553f2414db61a716bcc46f2139eb15def631ba9c53b31dd1fc0504f55e8d7a2
+    icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
+    name: common
+    urls:
+    - common-7.1.3.tgz
+    version: 7.1.3
   - apiVersion: v1
     created: "2020-11-12T17:34:49.303633642Z"
     description: A Helm chart for Activiti Cloud Common Templates
@@ -3089,4 +3098,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0233.tgz
     version: 0.0.1-0233
-generated: "2020-11-26T10:32:51.371271769Z"
+generated: "2020-11-26T10:34:06.915901633Z"
