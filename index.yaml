@@ -1000,6 +1000,19 @@ entries:
     version: 0.0.15
   activiti-cloud-modeling:
   - apiVersion: v1
+    created: "2020-11-26T11:41:27.558839114Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.3
+    description: A Helm chart for Activiti Cloud Modeler
+    digest: ef07a5856431119c9182bea6050ba23bf49c03311d4124d51cc03be12e68490c
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    name: activiti-cloud-modeling
+    urls:
+    - activiti-cloud-modeling-7.1.985.tgz
+    version: 7.1.985
+  - apiVersion: v1
     created: "2020-11-23T12:48:43.063554128Z"
     description: A Helm chart for Activiti Cloud Modeler
     digest: 78c8581432cb30a179b5db7767afbfe3b01f5adcef51a7d651273b3dbf4fcb1d
@@ -2112,15 +2125,6 @@ entries:
     - activiti-cloud-query-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.245953568Z"
-    description: A Helm chart for Kubernetes
-    digest: 17629848b31f8b9691974db5bcdbeeab6e09a009c23def21b2815aaffd7fdc4f
-    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
-    name: activiti-cloud-query
-    urls:
-    - activiti-cloud-query-0.0.1-0376.tgz
-    version: 0.0.1-0376
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.247128205Z"
     description: A Helm chart for Kubernetes
     digest: cd7792c9697603f96e8594d0e220e2367c5aaaa2466a20edfc219155d634a72f
@@ -2138,6 +2142,15 @@ entries:
     urls:
     - activiti-cloud-query-0.0.1-0533.tgz
     version: 0.0.1-0533
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.245953568Z"
+    description: A Helm chart for Kubernetes
+    digest: 17629848b31f8b9691974db5bcdbeeab6e09a009c23def21b2815aaffd7fdc4f
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-0.0.1-0376.tgz
+    version: 0.0.1-0376
   alfresco-deployment-service:
   - apiVersion: v1
     appVersion: develop
@@ -3137,4 +3150,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0233.tgz
     version: 0.0.1-0233
-generated: "2020-11-26T11:41:21.967879972Z"
+generated: "2020-11-26T11:41:27.557190843Z"
