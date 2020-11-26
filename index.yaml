@@ -2099,15 +2099,6 @@ entries:
     - activiti-cloud-query-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.247128205Z"
-    description: A Helm chart for Kubernetes
-    digest: cd7792c9697603f96e8594d0e220e2367c5aaaa2466a20edfc219155d634a72f
-    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
-    name: activiti-cloud-query
-    urls:
-    - activiti-cloud-query-0.0.1-0778.tgz
-    version: 0.0.1-0778
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.246576635Z"
     description: A Helm chart for Kubernetes
     digest: 475e0877221601b3f5b0e1e0d7c0ea6db4c83040e142d23b8ed4e0249bc02f2e
@@ -2125,6 +2116,15 @@ entries:
     urls:
     - activiti-cloud-query-0.0.1-0376.tgz
     version: 0.0.1-0376
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.247128205Z"
+    description: A Helm chart for Kubernetes
+    digest: cd7792c9697603f96e8594d0e220e2367c5aaaa2466a20edfc219155d634a72f
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-0.0.1-0778.tgz
+    version: 0.0.1-0778
   alfresco-deployment-service:
   - apiVersion: v1
     appVersion: develop
@@ -2553,6 +2553,19 @@ entries:
     - common-1.1.5.tgz
     version: 1.1.5
   runtime-bundle:
+  - apiVersion: v1
+    created: "2020-11-26T11:41:16.642026486Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.3
+    description: A Helm chart for Activiti Cloud Runtime Bundle Example
+    digest: 160603f9abca3b0b05e55d5fd341c79c44bee56f44bbd709bdc098d9cfae4fc5
+    icon: https://raw.githubusercontent.com/Activiti/activiti-7-developers-guide/master/assets/Acitiviti_Icon_FullColor_GitHub_400x400.png
+    name: runtime-bundle
+    urls:
+    - runtime-bundle-7.1.985.tgz
+    version: 7.1.985
   - apiVersion: v1
     created: "2020-11-23T12:48:21.236289547Z"
     description: A Helm chart for Activiti Cloud Runtime Bundle Example
@@ -3111,4 +3124,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0233.tgz
     version: 0.0.1-0233
-generated: "2020-11-26T11:41:10.881864049Z"
+generated: "2020-11-26T11:41:16.640555699Z"
