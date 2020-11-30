@@ -550,14 +550,14 @@ entries:
     - activiti-cloud-connector-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:48.946805782Z"
+    created: "2020-11-12T17:34:48.949149026Z"
     description: A Helm chart for Kubernetes
-    digest: b401bf0c314940573c28b7625be73bbd3b03ffc1d2a8ac538d09587401236b06
+    digest: 69984a66b29f7ae2200bd636e065a4e6a3b2a32bcfe9310d75f323eecb1085cf
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
     name: activiti-cloud-connector
     urls:
-    - activiti-cloud-connector-0.0.1-0233.tgz
-    version: 0.0.1-0233
+    - activiti-cloud-connector-0.0.1-0533.tgz
+    version: 0.0.1-0533
   - apiVersion: v1
     created: "2020-11-12T17:34:48.947993276Z"
     description: A Helm chart for Kubernetes
@@ -568,15 +568,6 @@ entries:
     - activiti-cloud-connector-0.0.1-0376.tgz
     version: 0.0.1-0376
   - apiVersion: v1
-    created: "2020-11-12T17:34:48.949149026Z"
-    description: A Helm chart for Kubernetes
-    digest: 69984a66b29f7ae2200bd636e065a4e6a3b2a32bcfe9310d75f323eecb1085cf
-    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
-    name: activiti-cloud-connector
-    urls:
-    - activiti-cloud-connector-0.0.1-0533.tgz
-    version: 0.0.1-0533
-  - apiVersion: v1
     created: "2020-11-12T17:34:48.949953246Z"
     description: A Helm chart for Kubernetes
     digest: 1cabe4eba52f046d35e1992e0b86f4b8e8cd1624a50e51c44a70fe0fbf7a11e9
@@ -585,7 +576,57 @@ entries:
     urls:
     - activiti-cloud-connector-0.0.1-0778.tgz
     version: 0.0.1-0778
+  - apiVersion: v1
+    created: "2020-11-12T17:34:48.946805782Z"
+    description: A Helm chart for Kubernetes
+    digest: b401bf0c314940573c28b7625be73bbd3b03ffc1d2a8ac538d09587401236b06
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-connector
+    urls:
+    - activiti-cloud-connector-0.0.1-0233.tgz
+    version: 0.0.1-0233
   activiti-cloud-full-example:
+  - apiVersion: v1
+    created: "2020-11-30T14:47:44.689014511Z"
+    dependencies:
+    - name: activiti-cloud-identity
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 0.0.22
+    - condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
+      name: activiti-cloud-query
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.985
+    - alias: rabbitmq
+      condition: application.rabbitmq.enabled,rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.6.8
+    - alias: postgres
+      condition: application.postgres.enabled,postgres.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.3.9
+    - condition: application.runtime-bundle.enabled,runtime-bundle.enabled
+      name: runtime-bundle
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.985
+    - condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled
+      name: activiti-cloud-connector
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.985
+    - condition: activiti-cloud-modeling.enabled,modeling.enabled
+      name: activiti-cloud-modeling
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.985
+    description: A Helm chart for Activiti Cloud Full Example
+    digest: 8ba1a8b4ad0b1dd6071f9a2bd1bf23b829a6353dc1c61d08581169ad69b021ea
+    icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
+    name: activiti-cloud-full-example
+    sources:
+    - https://github.com/Activiti/activiti-cloud-full-chart
+    urls:
+    - activiti-cloud-full-example-7.1.710.tgz
+    version: 7.1.710
   - apiVersion: v1
     created: "2020-11-30T09:00:46.339400234Z"
     dependencies:
@@ -2234,15 +2275,6 @@ entries:
     - activiti-cloud-query-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.245953568Z"
-    description: A Helm chart for Kubernetes
-    digest: 17629848b31f8b9691974db5bcdbeeab6e09a009c23def21b2815aaffd7fdc4f
-    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
-    name: activiti-cloud-query
-    urls:
-    - activiti-cloud-query-0.0.1-0376.tgz
-    version: 0.0.1-0376
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.247128205Z"
     description: A Helm chart for Kubernetes
     digest: cd7792c9697603f96e8594d0e220e2367c5aaaa2466a20edfc219155d634a72f
@@ -2260,6 +2292,15 @@ entries:
     urls:
     - activiti-cloud-query-0.0.1-0533.tgz
     version: 0.0.1-0533
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.245953568Z"
+    description: A Helm chart for Kubernetes
+    digest: 17629848b31f8b9691974db5bcdbeeab6e09a009c23def21b2815aaffd7fdc4f
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-0.0.1-0376.tgz
+    version: 0.0.1-0376
   alfresco-deployment-service:
   - apiVersion: v1
     appVersion: develop
@@ -3237,14 +3278,14 @@ entries:
     - runtime-bundle-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.305277396Z"
+    created: "2020-11-12T17:34:49.30580079Z"
     description: A Helm chart for Activiti Cloud Runtime Bundle Example
-    digest: e99609a3f6223d0f03e8c3559bba5c57776f44f35e44de806e9a381ee96afc91
+    digest: 93cf66cd9cbb95f4bdad1fc3865ff190a029d0981abcc8a4b28db9ad1c4d8d07
     icon: https://raw.githubusercontent.com/Activiti/activiti-7-developers-guide/master/assets/Acitiviti_Icon_FullColor_GitHub_400x400.png
     name: runtime-bundle
     urls:
-    - runtime-bundle-0.0.1-0533.tgz
-    version: 0.0.1-0533
+    - runtime-bundle-0.0.1-0778.tgz
+    version: 0.0.1-0778
   - apiVersion: v1
     created: "2020-11-12T17:34:49.304724421Z"
     description: A Helm chart for Activiti Cloud Runtime Bundle Example
@@ -3255,15 +3296,6 @@ entries:
     - runtime-bundle-0.0.1-0376.tgz
     version: 0.0.1-0376
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.30580079Z"
-    description: A Helm chart for Activiti Cloud Runtime Bundle Example
-    digest: 93cf66cd9cbb95f4bdad1fc3865ff190a029d0981abcc8a4b28db9ad1c4d8d07
-    icon: https://raw.githubusercontent.com/Activiti/activiti-7-developers-guide/master/assets/Acitiviti_Icon_FullColor_GitHub_400x400.png
-    name: runtime-bundle
-    urls:
-    - runtime-bundle-0.0.1-0778.tgz
-    version: 0.0.1-0778
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.304193927Z"
     description: A Helm chart for Activiti Cloud Runtime Bundle Example
     digest: 3eecd7fe5604fe0417dc66f958e091feb9d10bf0726bdc8edc56ff993e5036af
@@ -3272,4 +3304,13 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0233.tgz
     version: 0.0.1-0233
-generated: "2020-11-30T09:01:03.750476086Z"
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.305277396Z"
+    description: A Helm chart for Activiti Cloud Runtime Bundle Example
+    digest: e99609a3f6223d0f03e8c3559bba5c57776f44f35e44de806e9a381ee96afc91
+    icon: https://raw.githubusercontent.com/Activiti/activiti-7-developers-guide/master/assets/Acitiviti_Icon_FullColor_GitHub_400x400.png
+    name: runtime-bundle
+    urls:
+    - runtime-bundle-0.0.1-0533.tgz
+    version: 0.0.1-0533
+generated: "2020-11-30T14:47:44.670493037Z"
