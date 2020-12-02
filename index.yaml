@@ -1877,14 +1877,14 @@ entries:
     - activiti-cloud-modeling-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.204216597Z"
+    created: "2020-11-12T17:34:49.205541594Z"
     description: A Helm chart for Activiti Cloud Modeler
-    digest: 5fc73417a98ae2b40a8fb8a5a93d6d911b0c9d8db78e19b55ab7c877edfec6ec
+    digest: 2271755f701438636ee0485d93794af6f3740842a084d192c0570043e102cca9
     icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
     name: activiti-cloud-modeling
     urls:
-    - activiti-cloud-modeling-0.0.1-0233.tgz
-    version: 0.0.1-0233
+    - activiti-cloud-modeling-0.0.1-0533.tgz
+    version: 0.0.1-0533
   - apiVersion: v1
     created: "2020-11-12T17:34:49.204841786Z"
     description: A Helm chart for Activiti Cloud Modeler
@@ -1895,15 +1895,6 @@ entries:
     - activiti-cloud-modeling-0.0.1-0376.tgz
     version: 0.0.1-0376
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.205541594Z"
-    description: A Helm chart for Activiti Cloud Modeler
-    digest: 2271755f701438636ee0485d93794af6f3740842a084d192c0570043e102cca9
-    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
-    name: activiti-cloud-modeling
-    urls:
-    - activiti-cloud-modeling-0.0.1-0533.tgz
-    version: 0.0.1-0533
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.20627878Z"
     description: A Helm chart for Activiti Cloud Modeler
     digest: 7dd486756f178618d023d579787e19d44a7b361b22577c11864a8e035dd00c1a
@@ -1912,6 +1903,15 @@ entries:
     urls:
     - activiti-cloud-modeling-0.0.1-0778.tgz
     version: 0.0.1-0778
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.204216597Z"
+    description: A Helm chart for Activiti Cloud Modeler
+    digest: 5fc73417a98ae2b40a8fb8a5a93d6d911b0c9d8db78e19b55ab7c877edfec6ec
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    name: activiti-cloud-modeling
+    urls:
+    - activiti-cloud-modeling-0.0.1-0233.tgz
+    version: 0.0.1-0233
   activiti-cloud-query:
   - apiVersion: v1
     created: "2020-12-02T08:36:28.7264356Z"
@@ -2591,9 +2591,9 @@ entries:
     - common-7.1.0-M9.tgz
     version: 7.1.0-M9
   - apiVersion: v1
-    created: "2020-12-01T11:15:54.650398498Z"
+    created: "2020-12-02T10:15:49.295115097Z"
     description: A Helm chart for Activiti Cloud Common Templates
-    digest: 4419899af536def98a73f187aa22ef836b36d9c96459620c7b80ad01bd633801
+    digest: 61658ff6fdf30bae101f6918b6c254c672dded9a8b277acb884dd09ca26c5fd6
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
     name: common
     urls:
@@ -3601,4 +3601,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0533.tgz
     version: 0.0.1-0533
-generated: "2020-12-02T08:46:22.973123455Z"
+generated: "2020-12-02T10:15:49.294375502Z"
