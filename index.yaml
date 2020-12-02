@@ -626,6 +626,47 @@ entries:
     version: 0.0.1-0533
   activiti-cloud-full-example:
   - apiVersion: v1
+    created: "2020-12-02T11:14:59.761328241Z"
+    dependencies:
+    - name: activiti-cloud-identity
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 0.0.22
+    - condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
+      name: activiti-cloud-query
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.988
+    - alias: rabbitmq
+      condition: application.rabbitmq.enabled,rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.6.8
+    - alias: postgres
+      condition: application.postgres.enabled,postgres.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.3.9
+    - condition: application.runtime-bundle.enabled,runtime-bundle.enabled
+      name: runtime-bundle
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.988
+    - condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled
+      name: activiti-cloud-connector
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.988
+    - condition: activiti-cloud-modeling.enabled,modeling.enabled
+      name: activiti-cloud-modeling
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.988
+    description: A Helm chart for Activiti Cloud Full Example
+    digest: a222c96e52b2d111423d33b4a82c9c3f9f156010a11c441b6a306fdf5ea04a04
+    icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
+    name: activiti-cloud-full-example
+    sources:
+    - https://github.com/Activiti/activiti-cloud-full-chart
+    urls:
+    - activiti-cloud-full-example-7.1.713.tgz
+    version: 7.1.713
+  - apiVersion: v1
     created: "2020-12-02T08:46:22.990693077Z"
     dependencies:
     - name: activiti-cloud-identity
@@ -1877,14 +1918,14 @@ entries:
     - activiti-cloud-modeling-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.204841786Z"
+    created: "2020-11-12T17:34:49.204216597Z"
     description: A Helm chart for Activiti Cloud Modeler
-    digest: 07e6e644e608e685d4d24bd3f8a715c1e5cd308aff60998573acba01c0610dcc
+    digest: 5fc73417a98ae2b40a8fb8a5a93d6d911b0c9d8db78e19b55ab7c877edfec6ec
     icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
     name: activiti-cloud-modeling
     urls:
-    - activiti-cloud-modeling-0.0.1-0376.tgz
-    version: 0.0.1-0376
+    - activiti-cloud-modeling-0.0.1-0233.tgz
+    version: 0.0.1-0233
   - apiVersion: v1
     created: "2020-11-12T17:34:49.205541594Z"
     description: A Helm chart for Activiti Cloud Modeler
@@ -1895,15 +1936,6 @@ entries:
     - activiti-cloud-modeling-0.0.1-0533.tgz
     version: 0.0.1-0533
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.204216597Z"
-    description: A Helm chart for Activiti Cloud Modeler
-    digest: 5fc73417a98ae2b40a8fb8a5a93d6d911b0c9d8db78e19b55ab7c877edfec6ec
-    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
-    name: activiti-cloud-modeling
-    urls:
-    - activiti-cloud-modeling-0.0.1-0233.tgz
-    version: 0.0.1-0233
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.20627878Z"
     description: A Helm chart for Activiti Cloud Modeler
     digest: 7dd486756f178618d023d579787e19d44a7b361b22577c11864a8e035dd00c1a
@@ -1912,6 +1944,15 @@ entries:
     urls:
     - activiti-cloud-modeling-0.0.1-0778.tgz
     version: 0.0.1-0778
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.204841786Z"
+    description: A Helm chart for Activiti Cloud Modeler
+    digest: 07e6e644e608e685d4d24bd3f8a715c1e5cd308aff60998573acba01c0610dcc
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    name: activiti-cloud-modeling
+    urls:
+    - activiti-cloud-modeling-0.0.1-0376.tgz
+    version: 0.0.1-0376
   activiti-cloud-query:
   - apiVersion: v1
     created: "2020-12-02T08:36:28.7264356Z"
@@ -3601,4 +3642,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0533.tgz
     version: 0.0.1-0533
-generated: "2020-12-02T10:30:10.608540679Z"
+generated: "2020-12-02T11:14:59.741118179Z"
