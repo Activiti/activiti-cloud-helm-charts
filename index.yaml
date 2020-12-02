@@ -1136,7 +1136,7 @@ entries:
     - activiti-cloud-full-example-7.1.0-M2.tgz
     version: 7.1.0-M2
   - apiVersion: v1
-    created: "2020-12-01T11:28:59.853394166Z"
+    created: "2020-12-02T10:30:10.628008337Z"
     dependencies:
     - name: activiti-cloud-identity
       repository: https://activiti.github.io/activiti-cloud-helm-charts/
@@ -1168,7 +1168,7 @@ entries:
       repository: https://activiti.github.io/activiti-cloud-helm-charts/
       version: 7.1.0-M11MOCK1
     description: A Helm chart for Activiti Cloud Full Example
-    digest: f76cb6437d8a4649a7ca2173f1169cef06eb8c066c8b84560a5e3a79f9110147
+    digest: fea6774406a0b862bf6e38c4597ce7283336a7900348f6318b3a8702afc0ba0c
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
     name: activiti-cloud-full-example
     sources:
@@ -1877,14 +1877,14 @@ entries:
     - activiti-cloud-modeling-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.20627878Z"
+    created: "2020-11-12T17:34:49.204841786Z"
     description: A Helm chart for Activiti Cloud Modeler
-    digest: 7dd486756f178618d023d579787e19d44a7b361b22577c11864a8e035dd00c1a
+    digest: 07e6e644e608e685d4d24bd3f8a715c1e5cd308aff60998573acba01c0610dcc
     icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
     name: activiti-cloud-modeling
     urls:
-    - activiti-cloud-modeling-0.0.1-0778.tgz
-    version: 0.0.1-0778
+    - activiti-cloud-modeling-0.0.1-0376.tgz
+    version: 0.0.1-0376
   - apiVersion: v1
     created: "2020-11-12T17:34:49.205541594Z"
     description: A Helm chart for Activiti Cloud Modeler
@@ -1895,15 +1895,6 @@ entries:
     - activiti-cloud-modeling-0.0.1-0533.tgz
     version: 0.0.1-0533
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.204841786Z"
-    description: A Helm chart for Activiti Cloud Modeler
-    digest: 07e6e644e608e685d4d24bd3f8a715c1e5cd308aff60998573acba01c0610dcc
-    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
-    name: activiti-cloud-modeling
-    urls:
-    - activiti-cloud-modeling-0.0.1-0376.tgz
-    version: 0.0.1-0376
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.204216597Z"
     description: A Helm chart for Activiti Cloud Modeler
     digest: 5fc73417a98ae2b40a8fb8a5a93d6d911b0c9d8db78e19b55ab7c877edfec6ec
@@ -1912,6 +1903,15 @@ entries:
     urls:
     - activiti-cloud-modeling-0.0.1-0233.tgz
     version: 0.0.1-0233
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.20627878Z"
+    description: A Helm chart for Activiti Cloud Modeler
+    digest: 7dd486756f178618d023d579787e19d44a7b361b22577c11864a8e035dd00c1a
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    name: activiti-cloud-modeling
+    urls:
+    - activiti-cloud-modeling-0.0.1-0778.tgz
+    version: 0.0.1-0778
   activiti-cloud-query:
   - apiVersion: v1
     created: "2020-12-02T08:36:28.7264356Z"
@@ -3601,4 +3601,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0533.tgz
     version: 0.0.1-0533
-generated: "2020-12-02T10:28:16.551594293Z"
+generated: "2020-12-02T10:30:10.608540679Z"
