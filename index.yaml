@@ -3072,6 +3072,19 @@ entries:
     version: 1.1.5
   runtime-bundle:
   - apiVersion: v1
+    created: "2020-12-07T15:43:52.292306794Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.3
+    description: A Helm chart for Activiti Cloud Runtime Bundle Example
+    digest: 526b88f68c57ae7ac28432eef8dbfdea3eecf3a9403e9597029f097a66967c39
+    icon: https://raw.githubusercontent.com/Activiti/activiti-7-developers-guide/master/assets/Acitiviti_Icon_FullColor_GitHub_400x400.png
+    name: runtime-bundle
+    urls:
+    - runtime-bundle-7.1.990.tgz
+    version: 7.1.990
+  - apiVersion: v1
     created: "2020-12-07T09:45:19.856365268Z"
     dependencies:
     - name: common
@@ -3707,4 +3720,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0533.tgz
     version: 0.0.1-0533
-generated: "2020-12-07T15:43:46.354915572Z"
+generated: "2020-12-07T15:43:52.290933307Z"
