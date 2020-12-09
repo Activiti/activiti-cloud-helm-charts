@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   activiti-cloud-connector:
   - apiVersion: v1
+    created: "2020-12-09T18:37:43.135595027Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.3
+    description: A Helm chart for Kubernetes
+    digest: 1ec56264383d5deaf417795d2ff85463d9eeaa8f4002b470f4a852b2eae5510d
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-connector
+    urls:
+    - activiti-cloud-connector-7.1.992.tgz
+    version: 7.1.992
+  - apiVersion: v1
     created: "2020-12-09T09:21:59.066124496Z"
     dependencies:
     - name: common
@@ -2768,6 +2781,15 @@ entries:
     - activiti-cloud-query-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
+    created: "2020-11-12T17:34:49.246576635Z"
+    description: A Helm chart for Kubernetes
+    digest: 475e0877221601b3f5b0e1e0d7c0ea6db4c83040e142d23b8ed4e0249bc02f2e
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-0.0.1-0533.tgz
+    version: 0.0.1-0533
+  - apiVersion: v1
     created: "2020-11-12T17:34:49.245953568Z"
     description: A Helm chart for Kubernetes
     digest: 17629848b31f8b9691974db5bcdbeeab6e09a009c23def21b2815aaffd7fdc4f
@@ -2785,15 +2807,6 @@ entries:
     urls:
     - activiti-cloud-query-0.0.1-0778.tgz
     version: 0.0.1-0778
-  - apiVersion: v1
-    created: "2020-11-12T17:34:49.246576635Z"
-    description: A Helm chart for Kubernetes
-    digest: 475e0877221601b3f5b0e1e0d7c0ea6db4c83040e142d23b8ed4e0249bc02f2e
-    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
-    name: activiti-cloud-query
-    urls:
-    - activiti-cloud-query-0.0.1-0533.tgz
-    version: 0.0.1-0533
   alfresco-deployment-service:
   - apiVersion: v1
     appVersion: develop
@@ -3906,4 +3919,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0533.tgz
     version: 0.0.1-0533
-generated: "2020-12-09T18:37:37.977178856Z"
+generated: "2020-12-09T18:37:43.13420968Z"
