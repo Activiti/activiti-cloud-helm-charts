@@ -2690,6 +2690,19 @@ entries:
     urls:
     - activiti-cloud-query-7.1.0-M11MOCK1.tgz
     version: 7.1.0-M11MOCK1
+  - apiVersion: v1
+    created: "2020-12-09T20:10:45.999763866Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.0-M11
+    description: A Helm chart for Kubernetes
+    digest: ed55c2ada617365eee1b36b8ad9a1ca0ca826646130bcc33244b2b4b9765bd0a
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-7.1.0-M11.tgz
+    version: 7.1.0-M11
   - apiVersion: 7.1.0-M10MOCK1
     created: "2020-11-12T17:34:49.258611202Z"
     description: A Helm chart for Kubernetes
@@ -2844,15 +2857,6 @@ entries:
     - activiti-cloud-query-0.0.1-0533.tgz
     version: 0.0.1-0533
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.245953568Z"
-    description: A Helm chart for Kubernetes
-    digest: 17629848b31f8b9691974db5bcdbeeab6e09a009c23def21b2815aaffd7fdc4f
-    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
-    name: activiti-cloud-query
-    urls:
-    - activiti-cloud-query-0.0.1-0376.tgz
-    version: 0.0.1-0376
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.247128205Z"
     description: A Helm chart for Kubernetes
     digest: cd7792c9697603f96e8594d0e220e2367c5aaaa2466a20edfc219155d634a72f
@@ -2861,6 +2865,15 @@ entries:
     urls:
     - activiti-cloud-query-0.0.1-0778.tgz
     version: 0.0.1-0778
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.245953568Z"
+    description: A Helm chart for Kubernetes
+    digest: 17629848b31f8b9691974db5bcdbeeab6e09a009c23def21b2815aaffd7fdc4f
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-0.0.1-0376.tgz
+    version: 0.0.1-0376
   alfresco-deployment-service:
   - apiVersion: v1
     appVersion: develop
@@ -3982,4 +3995,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0533.tgz
     version: 0.0.1-0533
-generated: "2020-12-09T19:59:09.39606013Z"
+generated: "2020-12-09T20:10:45.998521399Z"
