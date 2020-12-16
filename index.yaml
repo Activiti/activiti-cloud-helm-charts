@@ -1582,6 +1582,19 @@ entries:
     version: 0.0.15
   activiti-cloud-modeling:
   - apiVersion: v1
+    created: "2020-12-16T14:56:50.150472205Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts/
+      version: 7.1.3
+    description: A Helm chart for Activiti Cloud Modeler
+    digest: 05232a87a3ec19254eea2e063e3fa065a7432ba71eaef00e8289eb9d18e03c6e
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    name: activiti-cloud-modeling
+    urls:
+    - activiti-cloud-modeling-7.1.993.tgz
+    version: 7.1.993
+  - apiVersion: v1
     created: "2020-12-09T18:37:48.446823883Z"
     dependencies:
     - name: common
@@ -2225,15 +2238,6 @@ entries:
     - activiti-cloud-modeling-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.20627878Z"
-    description: A Helm chart for Activiti Cloud Modeler
-    digest: 7dd486756f178618d023d579787e19d44a7b361b22577c11864a8e035dd00c1a
-    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
-    name: activiti-cloud-modeling
-    urls:
-    - activiti-cloud-modeling-0.0.1-0778.tgz
-    version: 0.0.1-0778
-  - apiVersion: v1
     created: "2020-11-12T17:34:49.204841786Z"
     description: A Helm chart for Activiti Cloud Modeler
     digest: 07e6e644e608e685d4d24bd3f8a715c1e5cd308aff60998573acba01c0610dcc
@@ -2243,14 +2247,14 @@ entries:
     - activiti-cloud-modeling-0.0.1-0376.tgz
     version: 0.0.1-0376
   - apiVersion: v1
-    created: "2020-11-12T17:34:49.204216597Z"
+    created: "2020-11-12T17:34:49.20627878Z"
     description: A Helm chart for Activiti Cloud Modeler
-    digest: 5fc73417a98ae2b40a8fb8a5a93d6d911b0c9d8db78e19b55ab7c877edfec6ec
+    digest: 7dd486756f178618d023d579787e19d44a7b361b22577c11864a8e035dd00c1a
     icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
     name: activiti-cloud-modeling
     urls:
-    - activiti-cloud-modeling-0.0.1-0233.tgz
-    version: 0.0.1-0233
+    - activiti-cloud-modeling-0.0.1-0778.tgz
+    version: 0.0.1-0778
   - apiVersion: v1
     created: "2020-11-12T17:34:49.205541594Z"
     description: A Helm chart for Activiti Cloud Modeler
@@ -2260,6 +2264,15 @@ entries:
     urls:
     - activiti-cloud-modeling-0.0.1-0533.tgz
     version: 0.0.1-0533
+  - apiVersion: v1
+    created: "2020-11-12T17:34:49.204216597Z"
+    description: A Helm chart for Activiti Cloud Modeler
+    digest: 5fc73417a98ae2b40a8fb8a5a93d6d911b0c9d8db78e19b55ab7c877edfec6ec
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    name: activiti-cloud-modeling
+    urls:
+    - activiti-cloud-modeling-0.0.1-0233.tgz
+    version: 0.0.1-0233
   activiti-cloud-query:
   - apiVersion: v1
     created: "2020-12-16T14:56:35.069784664Z"
@@ -2941,6 +2954,15 @@ entries:
     - activiti-cloud-query-0.0.1-1132.tgz
     version: 0.0.1-1132
   - apiVersion: v1
+    created: "2020-11-12T17:34:49.247128205Z"
+    description: A Helm chart for Kubernetes
+    digest: cd7792c9697603f96e8594d0e220e2367c5aaaa2466a20edfc219155d634a72f
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
+    name: activiti-cloud-query
+    urls:
+    - activiti-cloud-query-0.0.1-0778.tgz
+    version: 0.0.1-0778
+  - apiVersion: v1
     created: "2020-11-12T17:34:49.246576635Z"
     description: A Helm chart for Kubernetes
     digest: 475e0877221601b3f5b0e1e0d7c0ea6db4c83040e142d23b8ed4e0249bc02f2e
@@ -2958,15 +2980,6 @@ entries:
     urls:
     - activiti-cloud-query-0.0.1-0376.tgz
     version: 0.0.1-0376
-  - apiVersion: v1
-    created: "2020-11-12T17:34:49.247128205Z"
-    description: A Helm chart for Kubernetes
-    digest: cd7792c9697603f96e8594d0e220e2367c5aaaa2466a20edfc219155d634a72f
-    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
-    name: activiti-cloud-query
-    urls:
-    - activiti-cloud-query-0.0.1-0778.tgz
-    version: 0.0.1-0778
   alfresco-deployment-service:
   - apiVersion: v1
     appVersion: develop
@@ -4114,4 +4127,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0376.tgz
     version: 0.0.1-0376
-generated: "2020-12-16T14:56:44.794952904Z"
+generated: "2020-12-16T14:56:50.148943951Z"
