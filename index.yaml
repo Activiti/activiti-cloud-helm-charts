@@ -3404,7 +3404,7 @@ entries:
     - activiti-cloud-full-example-7.1.0-M2.tgz
     version: 7.1.0-M2
   - apiVersion: v1
-    created: "2021-03-09T11:54:01.014937817Z"
+    created: "2021-03-09T15:47:12.869385958Z"
     dependencies:
     - alias: activiti-cloud-identity
       condition: application.activiti-cloud-identity.enabled,activiti-cloud-identity.enabled
@@ -3445,7 +3445,7 @@ entries:
       repository: https://activiti.github.io/activiti-cloud-helm-charts
       version: 7.1.0-M12MOCK1
     description: A Helm chart for Activiti Cloud Full Example
-    digest: 883634353b8a108a54165743a8c4c796987de8e8bc9da062eb12049a3a457443
+    digest: 89cb5c4f45dc8342c10f8cab27e8fccfd11d5deb959fa8f126ac4077b6978a5f
     icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
     kubeVersion: '>=1.15.0-0'
     name: activiti-cloud-full-example
@@ -6403,4 +6403,4 @@ entries:
     urls:
     - runtime-bundle-0.0.1-0533.tgz
     version: 0.0.1-0533
-generated: "2021-03-09T15:36:38.477049864Z"
+generated: "2021-03-09T15:47:12.835162373Z"
