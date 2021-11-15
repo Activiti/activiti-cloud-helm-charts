@@ -10099,9 +10099,9 @@ entries:
     - common-7.1.0-M9.tgz
     version: 7.1.0-M9
   - apiVersion: v1
-    created: "2021-11-15T15:39:14.965978479Z"
+    created: "2021-11-15T16:04:38.545481544Z"
     description: A Helm chart for Activiti Cloud Common Templates
-    digest: 2b73102ba284673a77d28ba64332b183b7bf654bf772b9dc0c0670a0cde561a4
+    digest: 06fc4669c479c9c9f75bdb8a992ae0779697281cd2d6f4583a3c5d7ee7be7c2b
     icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
     name: common
     sources:
@@ -10920,4 +10920,4 @@ entries:
     urls:
     - runtime-bundle-7.1.0-A1.tgz
     version: 7.1.0-A1
-generated: "2021-11-15T15:39:14.95997387Z"
+generated: "2021-11-15T16:04:38.536506722Z"
