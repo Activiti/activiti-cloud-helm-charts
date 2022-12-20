@@ -25762,9 +25762,9 @@ entries:
     - https://activiti.github.io/activiti-cloud-helm-charts/common-7.8.0-rc.11.tgz
     version: 7.8.0-rc.11
   - apiVersion: v1
-    created: "2022-12-20T21:53:36.996511624Z"
+    created: "2022-12-20T23:37:13.441683083Z"
     description: A Helm chart for Activiti Cloud Common Templates
-    digest: ce5be32681a59a2e8d6440f7fc1b2328ceaf822f9dd852eb4c23ac9cd3f87fba
+    digest: c872833852aecf3ed474523e99041c85d53ecea4b25afff1fd43106d0bb1a8d2
     icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
     name: common
     sources:
@@ -28203,4 +28203,4 @@ entries:
     urls:
     - runtime-bundle-7.1.0-A1.tgz
     version: 7.1.0-A1
-generated: "2022-12-20T22:05:21.23858097Z"
+generated: "2022-12-20T23:37:13.438305939Z"
