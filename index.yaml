@@ -73157,6 +73157,17 @@ entries:
     - common-8.0.0-mock.tgz
     version: 8.0.0-mock
   - apiVersion: v1
+    created: "2024-07-05T07:07:33.475219511Z"
+    description: A Helm chart for Activiti Cloud Common Templates
+    digest: 4dd7df989db4e8295d4b1a046a9072b4a61fd5419e9d79d8c73da3e53e980756
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    name: common
+    sources:
+    - https://github.com/Activiti/activiti-cloud-common-chart
+    urls:
+    - https://activiti.github.io/activiti-cloud-helm-charts/common-7.18.0-rc.109.tgz
+    version: 7.18.0-rc.109
+  - apiVersion: v1
     created: "2024-07-04T15:21:26.382767537Z"
     description: A Helm chart for Activiti Cloud Common Templates
     digest: 8382d1e7c9e2963ec32f0db17a41b14c57c20afdc81181a4266f8f51db38a25b
@@ -82187,4 +82198,4 @@ entries:
     urls:
     - runtime-bundle-7.1.0-A1.tgz
     version: 7.1.0-A1
-generated: "2024-07-04T15:22:25.705733621Z"
+generated: "2024-07-05T07:07:33.47380127Z"
