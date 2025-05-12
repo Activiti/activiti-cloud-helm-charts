@@ -490,6 +490,61 @@ entries:
     - activiti-cloud-full-example-8.8.0-mock-mock.tgz
     version: 8.8.0-mock-mock
   - apiVersion: v1
+    created: "2025-05-12T11:08:02.525301661Z"
+    dependencies:
+    - alias: activiti-cloud-identity
+      condition: application.activiti-cloud-identity.enabled,activiti-cloud-identity.enabled
+      name: keycloak
+      repository: https://codecentric.github.io/helm-charts
+      version: 11.0.1
+    - condition: application.rabbitmq.enabled,rabbitmq.enabled
+      name: rabbitmq
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 7.8.0
+    - condition: application.kafka.enabled,kafka.enabled
+      name: kafka
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 12.x.x
+    - condition: application.postgresql.enabled,postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 9.1.1
+    - alias: activiti-cloud-identity-adapter
+      condition: activiti-cloud-identity-adapter.enabled,identity-adapter.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.7.0-alpha.6
+    - alias: runtime-bundle
+      condition: application.runtime-bundle.enabled,runtime-bundle.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.7.0-alpha.6
+    - alias: activiti-cloud-query
+      condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.7.0-alpha.6
+    - alias: activiti-cloud-connector
+      condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.7.0-alpha.6
+    - alias: activiti-cloud-consumer
+      condition: application.activiti-cloud-consumer.enabled,activiti-cloud-consumer.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.7.0-alpha.6
+    description: A Helm chart for Activiti Cloud Full Example
+    digest: 1e554289c3ffda8af2f6c2c50e032338827e0df1817e59dfc9101cd807cc2594
+    icon: https://raw.githubusercontent.com/Activiti/activiti.github.io/master/mstile-150x150.png
+    kubeVersion: '>=1.15.0-0'
+    name: activiti-cloud-full-example
+    sources:
+    - https://github.com/Activiti/activiti-cloud-full-chart
+    urls:
+    - activiti-cloud-full-example-8.8.0-alpha.51.tgz
+    version: 8.8.0-alpha.51
+  - apiVersion: v1
     created: "2025-05-09T07:20:10.342142696Z"
     dependencies:
     - alias: activiti-cloud-identity
@@ -126988,4 +127043,4 @@ entries:
     urls:
     - runtime-bundle-7.1.0-A1.tgz
     version: 7.1.0-A1
-generated: "2025-05-12T10:53:31.841823922Z"
+generated: "2025-05-12T11:08:02.509581699Z"
